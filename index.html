@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Didan Ramdhani - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="nav-logo">Didan.</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Beranda</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Keahlian</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HOME SECTION -->
+        <section class="home section" id="home">
+            <div class="container">
+                <div class="home-content">
+                    <h1 class="home-title">Halo, Saya <span>Didan Ramdhani</span></h1>
+                    <h3 class="home-subtitle"><span class="typing"></span></h3>
+                    <p class="home-description">Seorang developer yang antusias membangun aplikasi web dan game yang fungsional, inovatif, dan user-friendly. Senang belajar teknologi baru dan menantang diri sendiri.</p>
+                    <div class="home-buttons">
+                        <a href="#portfolio" class="btn btn-primary">Lihat Portfolio</a>
+                        <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                    </div>
+                </div>
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button"></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="about-content grid">
+                    <div class="about-img">
+                        <img src="https://placehold.co/400x400/1e1e1e/00d4ff?text=Foto+Didan" alt="Foto Didan Ramdhani" class="about-img-card">
+                    </div>
+                    <div class="about-data">
+                        <p>Saya adalah seorang Full-Stack Developer dan Game Developer dengan passion yang tinggi dalam dunia teknologi. Pengalaman saya mencakup pengembangan website dari sisi frontend hingga backend, serta pembuatan game 2D dan 3D. Saya percaya bahwa teknologi adalah alat untuk menciptakan solusi kreatif dan bermanfaat.</p>
+                        <p>Selain coding, saya tertarik pada desain UI/UX, arsitektur sistem, dan terus memperbarui pengetahuan saya dengan mengikuti tren teknologi terkini.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section-title">Keahlian Teknis</h2>
+                <div class="skills-content grid">
+                    <!-- Frontend Skills -->
+                    <div class="skills-group">
+                        <h3 class="skills-title"><i class="fas fa-code"></i> Frontend Development</h3>
+                        <div class="skills-list">
+                            <div class="skills-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skills-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skills-item">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript (ES6+)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Backend Skills -->
+                    <div class="skills-group">
+                        <h3 class="skills-title"><i class="fas fa-server"></i> Backend Development</h3>
+                        <div class="skills-list">
+                            <div class="skills-item">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="skills-item">
+                                <i class="fas fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="skills-item">
+                                <i class="fas fa-node"></i>
+                                <span>Node.js (Dasar)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Game Dev & Tools -->
+                    <div class="skills-group">
+                        <h3 class="skills-title"><i class="fas fa-gamepad"></i> Game Dev & Tools</h3>
+                        <div class="skills-list">
+                            <div class="skills-item">
+                                <i class="fas fa-cube"></i>
+                                <span>Unity (2D & 3D)</span>
+                            </div>
+                            <div class="skills-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git & Github</span>
+                            </div>
+                            <div class="skills-item">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma (UI/UX)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Portfolio Saya</h2>
+                <div class="portfolio-content grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://placehold.co/600x400/1e1e1e/ffffff?text=Website+Jurnal+PKL" alt="Website Jurnal PKL">
+                        </div>
+                        <div class="portfolio-data">
+                            <h3>Website Jurnal PKL</h3>
+                            <p>Platform web untuk mengelola dan mempublikasikan laporan jurnal siswa selama Praktik Kerja Lapangan (PKL). Dibangun dengan PHP dan MySQL.</p>
+                            <a href="#" class="btn btn-outline">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://placehold.co/600x400/1e1e1e/ffffff?text=Website+UMKM" alt="Website UMKM">
+                        </div>
+                        <div class="portfolio-data">
+                            <h3>Website Profil UMKM</h3>
+                            <p>Website company profile untuk Usaha Mikro Kecil Menengah (UMKM) yang menampilkan produk, layanan, dan informasi kontak. Fitur CMS untuk update konten.</p>
+                            <a href="#" class="btn btn-outline">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://placehold.co/600x400/1e1e1e/ffffff?text=Game+2D+Platformer" alt="Game 2D Platformer">
+                        </div>
+                        <div class="portfolio-data">
+                            <h3>Game 2D Platformer</h3>
+                            <p>Sebuah game platformer 2D klasik dengan mekanik melompat, mengumpulkan koin, dan menghindari musuh. Dikembangkan menggunakan Unity dan C#.</p>
+                            <a href="#" class="btn btn-outline">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://placehold.co/600x400/1e1e1e/ffffff?text=Game+3D+Puzzle" alt="Game 3D Puzzle">
+                        </div>
+                        <div class="portfolio-data">
+                            <h3>Game 3D Puzzle</h3>
+                            <p>Game puzzle 3D yang menantang pemain untuk memecahkan teka-teki ruang untuk mencapai tujuan. Fokus pada logika dan eksplorasi.</p>
+                            <a href="#" class="btn btn-outline">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Hubungi Saya</h2>
+                <div class="contact-content grid">
+                    <div class="contact-info">
+                        <h3>Mari Bekerja Sama</h3>
+                        <p>Saya terbuka untuk diskusi tentang proyek, kolaborasi, atau peluang kerja. Jangan ragu untuk menghubungi saya!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>didan.ramdhani@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+62 812-3456-7890</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Kota Bandung, Indonesia</span>
+                            </div>
+                        </div>
+                        <div class="contact-socials">
+                            <a href="https://github.com" target="_blank" class="contact-social"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com" target="_blank" class="contact-social"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://instagram.com" target="_blank" class="contact-social"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Anda" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Anda" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda" rows="5" class="form-input" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Didan Ramdhani. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
